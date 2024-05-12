@@ -1,0 +1,33 @@
+{
+  "story": [
+    {
+      "label": "Two guards drag an unconscious person across a dark prison hallway..."
+    },
+    {
+      "label": "Warden: \"Lock him up with the rest of the non workers.\""
+    },
+    {
+      "label": "An elderly female prisoner looks at the unconcious person who is bleeding."
+    },
+    {
+      "label": "Old woman: Oh poor boy... what have they done to you?"
+    },
+    {
+      "label": "'The guards slam the gate shut.'"
+    },
+    {
+      "label": "Why did they do this to you?      [Note: You are playing as the Prisoner]",
+      "choices":
+        {
+          "NEG": {
+            "label": "Don't tell her",
+            "story": ["You: It was nothing.", "Old woman: Nothing?", "You: I don't want to talk about it."]
+          },
+          "POS": {
+            "story": ["You: They took my brother away.", "They started beating me when I asked them where they were taking him.", "I mean, he's just a little boy. What did he ever do to anybody?", "This war has taken everything from me...", "Old woman: I know it must be really tough for you.", "You: I should go and look for him."]
+          }
+        }
+    }
+
+  ]
+}
